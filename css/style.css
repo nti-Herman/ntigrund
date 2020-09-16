@@ -1,1 +1,6 @@
 /* Denna fil skall innehålla din CSS kod */
+
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 100px;
+}
