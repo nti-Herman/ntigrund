@@ -3,4 +3,18 @@
 h1 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 100px;
+    background-color: rgba(245,0,0,0.5);
+    border: solid 5px yellow;
+    height: 250px;
+    
 }
+
+    #Blockis {
+        background-color: aqua;
+       width: 90%;
+       border: solid 10px blue;
+    }
+
+    img {
+        display: block;
+    }
