@@ -1,0 +1,38 @@
+#container {
+    display: grid;
+    background-color: aqua;
+    height: 100vh;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 100px auto 100px;
+    grid-template-areas: 
+    'hd hd hd hd hd hd'
+    'mn mn mn mn as as'
+    'ft ft ft ft ft ft';
+}
+
+header {
+    grid-area: hd;
+    background-color: lightblue;
+
+}
+
+main {
+    grid-area: mn;
+    background-color: lightcoral;
+}
+
+footer {
+    grid-area: ft;
+    background-color: lightsalmon;
+}
+
+aside {
+    grid-area: as;
+    background: yellow;
+}
+
+.Rubrik {
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: maroon;
+}
